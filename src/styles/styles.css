@@ -1,0 +1,55 @@
+@import url('global.css');
+
+#container{
+    background-color: #f0f8ff;
+    width: 600px;
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: 0px 10px -3px rgba(0, 0, 0, 0.1);
+}
+
+.tab-buttons{
+    display: flex;
+    gap: 6px;
+}
+
+.tab-buttons .tab-btn{
+    width: 100%;
+    border: none;
+    color: #020617;
+    background-color: #f0f8ff;
+    border-radius: 8px 8px 0px 0px;
+    font-weight: 500;
+    padding: 8px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.tab-buttons .tab-btn.active{
+    background-color: #c7d2fe;
+}
+
+.tab-buttons .tab-btn:hover{
+    background-color: #a5b4fc;
+}
+
+
+.content{
+    display: none;
+    
+}
+
+.content.show{
+    display: flex;
+    gap: 14px;
+    background-color: #c7d2fe;
+    border-radius: 0px 0px 8px 8px;
+    padding: 16px;
+}
+
+
+
+.content-img{
+    width: 50%;
+    height: 250px;
+}
